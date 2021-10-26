@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("../img/background.jpg");
+}
+
+main{
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+#siteLogo{
+    display: inline-flex;
+}
+
+#logo{
+    width: 50px;
+}
+
+#signInForm {
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+}
+
+#userProfileBtn{
+    font-size: 1.2em;
+}
+
+#signedUser div{
+    height: 40px;
+}
+
+#signedUser div *{
+    height: 100%;
+}
+
+.imgMovie {
+    height: 300px;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+@media (max-width: 767px) {
+    .imgMovie {
+        height: 50vh;
+    }
+}
+
+@media (max-width: 800px) and (max-height: 500px) {
+    .imgMovie {
+        width: 50vw;
+        height: 50vh;
+    }
+
+    .imgMovieBlock {
+        text-align: center;
+    }
+}
+
+
